@@ -14,9 +14,9 @@ import {VscSignOut} from 'react-icons/vsc';
 function Navbar(props) {
   return (
     <>
-        <div class = "flex flex-col bg-black h-10 w-64 mt-8 rounded-3xl ml-8 pt-1">
+        <div class = "flex flex-col bg-red h-10 w-64 mt-8 rounded-3xl ml-8 pt-1">
             {/* <div class ="flex-auto p-0 h-0"><img src={props.props1} className="App-logo h-12 w-12" alt="logo"/></div> */}
-            <div class ="flex-auto text-yellow-300 p-0"><h4 class="font-semibold text-lg">flixdin</h4></div>
+            <div class ="flex-auto text-green-300 p-0"><h4 class="font-semibold text-lg">flixdin</h4></div>
 
         </div>
         <a href="/"><div class = "flex flex-row rounded-lg ml-10 mr-10 mt-10 p-2 hover:bg-white font-semibold"><FaHome size="1.5rem" class="ml-5"></FaHome>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</div></a>
